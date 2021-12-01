@@ -1,0 +1,10 @@
+[package]
+distribution = "slbeta4"
+
+[build-options]
+observabilityIncluded = true
+
+[container.image]
+ repository="deependra"
+ name="hello"
+ tag="v0.1.0"
