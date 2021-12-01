@@ -7,6 +7,14 @@ Build the project usting Ballerina
 
 bal build
 
+Build the Docker image
+
+bal build --cloud=docker
+
+Build the k8s artifacts
+
+bal build --cloud=k8s
+
 Run the project using Ballrina
 
 bal run
